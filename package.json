@@ -1,0 +1,16 @@
+{
+  "name": "moneybinance",
+  "version": "1.0.0",
+  "description": "Sistema de trading com modo simulacao e modo real",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
